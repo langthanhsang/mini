@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ["1","2","3","4"];
+    let num = prompt('inter a number');
+    let count = 0;
+    function a() {
+        for (let i = 0; i < arr.length; i++) {
+            if (num === arr[i]) {
+                count++;
+            }
+        }
+        document.write('số lần xuất hiện phần tử lần ' + count)
+    }
+a(arr)
+</script>
+
+</body>
+</html>
